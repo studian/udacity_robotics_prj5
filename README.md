@@ -2,7 +2,7 @@
 # Final : Home Service Robot Project
 
 <p align="center">
-  <img src="home_service.gif">
+  <img src="home_service2.gif">
 </p> 
 
 The goal of this project is to program a robot than can autonomously map an environment and navigate to pick up and drop off virtual objects. List of the steps in this project :
