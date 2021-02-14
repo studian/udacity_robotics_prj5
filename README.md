@@ -2,7 +2,7 @@
 # Final : Home Service Robot Project
 
 <p align="center">
-  <img src="Screen Recording 2021-02-14 at 10.12.11 PM_1_1.mp4"/>
+  <embed height="360px" src="Screen Recording 2021-02-14 at 10.12.11 PM_1_1.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></embed>
 </p> 
 
 The goal of this project is to program a robot than can autonomously map an environment and navigate to pick up and drop off virtual objects. List of the steps in this project :
