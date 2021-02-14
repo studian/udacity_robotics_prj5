@@ -82,6 +82,15 @@ catkin_ws/src
 
 * turtlebot_gazebo: With the turtlebot_world.launch you can deploy a turtlebot in a gazebo environment by linking the world file to it.   
 
+## Simple Pacakges Explaination
+* turtlebot : provides underlying drivers and specifications for the Turtlebot 2 in ROS Kinetic, and also keyboard control functionality for this project.   
+
+* simulator : connects the Turtlebot packages with the Gazebo environment.   
+
+* interactions : provides the RViz launcher scripts.   
+
+* slam_gmapping : provides SLAM capability in conjunction with the gmapping package.   
+
 
 ## Source and build the project:
 ```sh
