@@ -87,7 +87,7 @@ catkin_ws/src
 
 * simulator : connects the Turtlebot packages with the Gazebo environment.   
 
-* interactions : provides the RViz launcher scripts.   
+* interactions : supporting user side interactions with the turtlebot.   
 
 * slam_gmapping : provides SLAM capability in conjunction with the gmapping package.   
 
