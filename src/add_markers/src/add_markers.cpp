@@ -21,7 +21,6 @@ void chatterCallback(const nav_msgs::Odometry::ConstPtr& msg)
 { 
   
 //Pick up
-     ROS_INFO("%d:%d %d:%d", std::abs(pickUp[0], msg->pose.pose.position.x, std::abs(pickUp[0], msg->pose.pose.position.y);
 if (std::abs(pickUp[0] -msg->pose.pose.position.x) < thresh[0] && std::abs(pickUp[1] -msg->pose.pose.position.y) < thresh[0] && std::abs(pickUp[2] -msg->pose.pose.orientation.w) < thresh[1])
    { 
     if(!atPickUp)

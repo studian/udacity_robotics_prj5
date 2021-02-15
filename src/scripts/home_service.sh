@@ -1,7 +1,8 @@
 #!/bin/sh
-xterm -e " roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/workspace/catkin_ws/src/world/my_world.world " &
+#echo $(rospack find add_markers)/../
+xterm -e " roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(rospack find add_markers)/../world/my_world.world " &
 sleep 5
-xterm -e " roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/workspace/catkin_ws/src/world/mymap.yaml " &
+xterm -e " roslaunch turtlebot_gazebo amcl_demo.launch map_file:=$(rospack find add_markers)/../world/mymap.yaml " &
 sleep 5
 xterm -e " rosrun rviz rviz -d /home/workspace/catkin_ws/src/rvizConfig/home_service.rviz " &
 sleep 15
